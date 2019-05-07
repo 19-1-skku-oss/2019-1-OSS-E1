@@ -15,5 +15,4 @@ C++ 를 이용한 자료구조 Red Black Tree 구현
 - 새로운노드 삽입
 - 기존 노드 삭제
 - 노드 탐색
-
-![algorithm](https://nesoy.github.io/assets/logo/algorithm.png){:width="70%" height="70%"}
+![algorithm](https://nesoy.github.io/assets/logo/algorithm.png)
