@@ -12,4 +12,5 @@
 ### About Project
 
 C++ 를 이용한 자료구조 Red Black Tree 구현
-![algorithm](https://nesoy.github.io/assets/logo/algorithm.png) {: width="70" height="70"}
+새로운노드
+![algorithm](https://nesoy.github.io/150x100/assets/logo/algorithm.png)
