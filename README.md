@@ -12,4 +12,4 @@
 ### About Project
 
 C++ 를 이용한 Red Black Tree 구현
-![algorithm](C:\Users\woo_kh\Desktop)
+![algorithm](https://nesoy.github.io/assets/logo/algorithm.png)
