@@ -24,7 +24,7 @@ void swap(int* a, int* b) {
 }
 
 void insertion_sort(int* arr, int length) {
-	int temp;
+	int temp = 0;
 
 	for (int i = 0; i < length; i++) {
 		temp = arr[i];
@@ -32,9 +32,10 @@ void insertion_sort(int* arr, int length) {
 		for (int j = i - 1; j >= 0; j--) {
 			if (temp < arr[j]) {
 				arr[j + 1] = arr[j];
+				arr[j] = temp;
 			}
 			else {
-				arr[j] = temp;
+				break;
 			}
 		}
 	}
