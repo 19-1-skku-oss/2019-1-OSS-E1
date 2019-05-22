@@ -1,18 +1,33 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void swap(int* a, int* b);
 void insertion_sort(int* arr, int length);
 
-int main(void) {
+int main(int argc ,char* argv[]) {
 
-	int arr[10] = { 5, 7, 6, 9, 1, 2, 3, 0, 8, 4 };
+	int arr_size = argc - 1;
+	int* arr = (int*)malloc(sizeof(int)*arr_size);
 
-	insertion_sort(arr, 10);
+	for (int i = 0; i < arr_size; i++) {
+		arr[i] = atoi(argv[i + 1]);
+	}
 
-	for (int i = 0; i < 10; i++) {
+	printf("Before Sorting : ");
+	for (int i = 0; i < arr_size; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf("\n\n");
+
+	insertion_sort(arr, arr_size);
+
+	printf("After Sorting : ");
+	for (int i = 0; i < arr_size; i++) {
 		printf("%d ", arr[i]);
 	}
 	printf("\n");
+
+	free(arr);
 
 	return 0;
 }
