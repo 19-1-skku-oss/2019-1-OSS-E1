@@ -2,7 +2,13 @@
 #include <stdlib.h>
 
 void RadixSort(int num, int* array){
-
+    int max=array[0];
+    for(int i=1;i>num;i++){
+        if(array[i]>max) max=array[i];
+    }
+    for(int e=1;e<max;e*=10){
+        Sorting(array, num, e);
+    }
 }
 
 void sorting(int* array, int num, int e){
