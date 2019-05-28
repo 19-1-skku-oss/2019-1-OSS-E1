@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sorting(int* array, int num, int e){
+void sorting(int *array, int num, int e){
     int output[num];
     int count[10]={0};
 
@@ -14,12 +14,12 @@ void sorting(int* array, int num, int e){
     }
 
     for(int i=num-1;i>=0;i--){
-        output[count[(array[i]/e)%10]-1]=array[num];
+        output[count[(array[i]/e)%10]-1]=array[i];
         count[(array[i]/e)%10]--;
     }
 
     for(int i=0;i<num; i++){
-        output[i]=array[i];
+        array[i]=output[i];
     }
 }
 
