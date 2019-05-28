@@ -16,7 +16,7 @@
 저장소에 저장이 되어있지 않지만 우리가 알고있는 자료구조가 있다면 업로드를 하며
 자료구조를 복습하는 것을 목적으로 하는 프로젝트입니다.
 
-#### 클론해온 저장소 주소
+#### 클론한 저장소
 [algorithms-and-data-struct](https://github.com/VentGrey/algorithms-and-data-struct)
 
 ### C를 이용한 자료구조, 알고리즘 구현
@@ -32,5 +32,6 @@ __자료구조__
 - stack
 ###### 비선형 자료구조
 - binarysearch tree
+
 
 ![algorithm](https://nesoy.github.io/assets/logo/algorithm.png)
