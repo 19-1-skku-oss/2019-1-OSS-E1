@@ -11,8 +11,8 @@
 
 ### About Project
 
-C++ 를 이용한 자료구조 Red Black Tree 구현
-- 새로운노드 삽입
-- 기존 노드 삭제
-- 노드 탐색
+C를 이용한 자료구조, 알고리즘 구현
+<u>- 정렬 알고리즘</u>
+- insertion sort
+-
 ![algorithm](https://nesoy.github.io/assets/logo/algorithm.png)
