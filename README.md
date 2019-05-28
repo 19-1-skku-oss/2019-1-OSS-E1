@@ -12,7 +12,7 @@
 ### About Project
 
 ##### C를 이용한 자료구조, 알고리즘 구현
-__정렬 알고리즘__
+__기본 정렬 알고리즘__
 - insertion sort
--
+- radix sort
 ![algorithm](https://nesoy.github.io/assets/logo/algorithm.png)
