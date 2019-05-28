@@ -11,8 +11,8 @@
 
 ### About Project
 
-C를 이용한 자료구조, 알고리즘 구현
-<u>- 정렬 알고리즘<\u>
+##### C를 이용한 자료구조, 알고리즘 구현
+- <u>정렬 알고리즘</u>
 - insertion sort
 -
 ![algorithm](https://nesoy.github.io/assets/logo/algorithm.png)
