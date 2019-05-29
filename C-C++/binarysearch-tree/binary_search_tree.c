@@ -12,7 +12,6 @@ typedef struct Node {
 	struct Node* left;
 	struct Node* right;
 }BSTnode;
-
 BSTnode* make_node(Data input) {
 	BSTnode* result = (BSTnode*)malloc(sizeof(BSTnode));
 	result->data = input;
@@ -52,8 +51,7 @@ void add_node(BSTnode* root, BSTnode* newNode) {
 
 	
 }
-
-void make_binary_search_tree(BSTnode* root, Data* input, int len) {
+BSTnode* make_binary_search_tree(BSTnode* root, Data* input, int len) {
 	if (len < 1) return;
 	
 	root = make_node(input[0]);
@@ -63,13 +61,70 @@ void make_binary_search_tree(BSTnode* root, Data* input, int len) {
 		temp = make_node(input[i]);
 		add_node(root, temp);
 	}
+
+	return root;
 }
+
+
+
+
+void inorder_trevasal(BSTnode* root) {
+	if (root != NULL) {
+		inorder_trevasal(root->left);
+		printf("%d ", root->data);
+		inorder_trevasal(root->right);
+	}
+}
+void inorder(BSTnode* root) {
+	printf("Inorder trevasal : ");
+	inorder_trevasal(root);
+	printf("\n");
+}
+
+void preorder_trevasal(BSTnode* root) {
+	if (root != NULL) {
+		printf("%d ", root->data);
+		preorder_trevasal(root->left);
+		preorder_trevasal(root->right);
+	}
+}
+void preorder(BSTnode* root) {
+	printf("Preorder trevasal : ");
+	preorder_trevasal(root);
+	printf("\n");
+}
+
+void postorder_trevasal(BSTnode* root) {
+	if (root != NULL) {
+		postorder_trevasal(root->left);
+		postorder_trevasal(root->right);
+		printf("%d ", root->data);
+	}
+}
+void postorder(BSTnode* root) {
+	printf("Postorder trevasal : ");
+	postorder_trevasal(root);
+	printf("\n");
+}
+
+
+
 
 int main(void) {
 	BSTnode* root = NULL;
 	Data input[LENGTH] = { 5, 2, 6, 0, 3, 1, 9, 8, 4, 7 };
 
-	make_binary_search_tree(root, input, LENGTH);
+	printf("Input Data : ");
+	for (int i = 0; i < LENGTH; i++) {
+		printf("%d ", input[i]);
+	}
+	printf("\n\n");
+
+	root = make_binary_search_tree(root, input, LENGTH);
+
+	inorder(root);
+	preorder(root);
+	postorder(root);
 
 	return 0;
 }
