@@ -31,9 +31,9 @@ void Sorting(int *array, int left, int mid, int right){
 void Merge_Sort(int *array, int left, int right){
     if(left<right){
         int mid=(left+right)/2;
-        Merge(array, left, mid);
-        Merge(array, mid+1, right);
-        Merge_Sort(array, left, mid, right);
+        Merge_Sort(array, left, mid);
+        Merge_Sort(array, mid+1, right);
+        Sorting(array, left, mid, right);
     }
 }
 
