@@ -87,3 +87,39 @@ int GetHighPriorityChild(Heap *pheap, int idx){
     }
 }
 
+// Heap
+
+typedef Heap PQueue;
+
+void InitPQueue (PQueue* ppqueue){
+    InitHeap(ppqueue);
+}
+
+bool IsPQueue(PQueue* ppqueue){
+    return IsEmpty(ppqueue);
+}
+
+bool IsPQFull(PQueue* ppqueue){
+    return IsFull(ppqueue);
+}
+
+void Enqueue(PQueue* ppqueue, Data data, int priority){
+    Insert(ppqueue, data, priority);
+}
+
+Data Dequeue(PQueue* ppqueue){
+    Delete(ppqueue);
+}
+
+void HeapSort(Data a[], int n){
+    Heap heap;
+    InitHeap(&heap);
+
+    for(int i=0;i<n;i++)}{
+        Enqueue(&heap, a[i], a[i]);
+    }
+
+    for(int i=n-1;n>=0;i--){
+        a[i]=Dequeue(&heap);
+    }
+}
