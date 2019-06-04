@@ -1,0 +1,14 @@
+It's about BaekJoon n.10931
+
+https://www.acmicpc.net/problem/10931
+
+Problem:
+Given a string S, write a program to obtain the SHA-384 hash value.
+
+Input:
+The first line is given the string S. S consists of only uppercase letters, lower case letters, and numbers, and has a maximum length of 50.
+
+Output:
+Print the SHA-384 hash value of S on the first line.
+
+Examples of Input and Output is in that link.
