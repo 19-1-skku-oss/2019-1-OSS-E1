@@ -21,15 +21,27 @@
 
 ### C를 이용한 자료구조, 알고리즘 구현
 __기본 정렬 알고리즘__
-- insertion sort
-- radix sort
+- bubble sort
 - selection sort
+- insertion sort
+- cocktail sort
+- heap sort
+- radix sort
+- quick sort
 - merge sort
+- shell sort
+
+__탐색 알고리즘__
+- DFS
+- BFS
 
 __자료구조__
 ###### 선형 자료구조
 - queue
 - stack
+- priority queue
+- binary search tree
+
 ###### 비선형 자료구조
 - binarysearch tree
 
