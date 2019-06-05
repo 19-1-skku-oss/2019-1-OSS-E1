@@ -1,49 +1,40 @@
-# About our Team
+# Bef is a responsive jekyll theme
 
-2019-05-07 E1
+Bef - Blog Enjoy Freedom is a responsive jekyll theme which created to be simple and freedom.
 
-### Members
+## Demo
 
-- 우병수 (소프트웨어학과/18) : Mysigyeong
-- 이상현 (소프트웨어학과/18) : moonglazer
-- 서보현 (문헌정보학과/17) : bohyeon9888
-- 김승윤 (문헌정보학과/17) : seungyoonkim66
+Check the theme in action [Demo](https://artemsheludko.github.io/bef/)
 
-### About Project
+The main page would look like this:
 
-거대 프로젝트에 뛰어들기에는 아직 부족한점이 많아 수준에 맞는 프로젝트를 찾다가
-자료구조와 알고리즘을 저장하는 저장소를 발견하게 되어 저희가 알고있는 것을 최대한 활용하여
-저장소에 저장이 되어있지 않지만 우리가 알고있는 자료구조가 있다면 업로드를 하며
-자료구조를 복습하는 것을 목적으로 하는 프로젝트입니다.
+![Main page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_main_page.jpg?raw=true)
 
-#### 클론한 저장소
-[algorithms-and-data-struct](https://github.com/VentGrey/algorithms-and-data-struct)
+The post page would look like this:
 
-### C를 이용한 자료구조, 알고리즘 구현
-__기본 정렬 알고리즘__
-- bubble sort
-- selection sort
-- insertion sort
-- cocktail sort
-- heap sort
-- radix sort
-- quick sort
-- merge sort
-- shell sort
+![Post page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_post.jpg?raw=true)
 
-__탐색 알고리즘__
-- DFS
-- BFS
+## Features
 
-__자료구조__
-###### 선형 자료구조
-- queue
-- stack
-- priority queue
-- binary search tree
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Vide](http://vodkabears.github.io/vide/)
+- [Disqus](https://disqus.com/)
+- [MailChimp](https://mailchimp.com/)
+- [Formspree!](https://formspree.io/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Share Buttons, Recent Post, Section Author, Contact and more...
 
-###### 비선형 자료구조
-- binarysearch tree
+## Installation:
 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-![algorithm](https://nesoy.github.io/assets/logo/algorithm.png)
+## License
+
+GNU General Public License v3.0
+
+## Donate
+
+<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
+<p>Either way, your support is a way to thank me ❤️</p>
+<p align="center"><b>Thank you for your support!</b></p>
