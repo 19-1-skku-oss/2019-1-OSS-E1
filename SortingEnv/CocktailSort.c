@@ -1,5 +1,35 @@
 #include <stdio.h>
-#define ARR_LEN 10
+#include <stdilb.h>
+
+void swap(int* a, int* b);
+void cocktailSort(int* arr, int len);
+
+int main(int argc, char* argv[]) {
+	int arr_size = argc - 1;
+	int* arr = (int*)malloc(sizeof(int)*arr_size);
+
+	for (int i = 0; i < arr_size; i++) {
+		arr[i] = atoi(argv[i + 1]);
+	}
+
+	printf("Before sorting : ");
+	for (int i = 0; i < arr_size; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf("\n");
+
+	cocktailSort(arr, arr_size);
+
+	printf("After sorting : ");
+	for (int i = 0; i < arr_size; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf("\n");
+
+	free(arr);
+
+	return 0;
+}
 
 void swap(int* a, int* b) {
 	*a ^= *b;
@@ -27,24 +57,4 @@ void cocktailSort(int* arr, int len) {
 
 		start++;
 	}
-}
-
-int main(void) {
-	int arr[ARR_LEN] = { 5, 1, 8, 2, 9, 0, 4, 3, 7, 6 };
-
-	printf("Before sorting : ");
-	for (int i = 0; i < ARR_LEN; i++) {
-		printf("%d ", arr[i]);
-	}
-	printf("\n");
-
-	cocktailSort(arr, ARR_LEN);
-
-	printf("After sorting : ");
-	for (int i = 0; i < ARR_LEN; i++) {
-		printf("%d ", arr[i]);
-	}
-	printf("\n");
-
-	return 0;
 }
