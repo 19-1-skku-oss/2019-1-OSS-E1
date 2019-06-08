@@ -32,7 +32,7 @@ gems:
   - jemoji
 
 defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
+    - {scope: {type: posts}, values: {layout: post, permalink: '/2019-1-OSS-E1/blog/:title'}}
 
 include:
   - _pages
@@ -44,4 +44,4 @@ exclude:
   - Gemfile.lock
 
 paginate: 12
-paginate_path: '/blog/:num'
+paginate_path: '/2019-1-OSS-E1/blog/:num'
