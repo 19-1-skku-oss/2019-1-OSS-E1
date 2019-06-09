@@ -15,7 +15,7 @@ navigation: true
 ## 기본 정렬 알고리즘
 ### - Bubble Sort
 
-![bubble_sort](https://media1.giphy.com/media/sJqcl6rWaEEXS/giphy.gif)
+<img src="https://media1.giphy.com/media/sJqcl6rWaEEXS/giphy.gif">
 
 
 ### - Cocktail Sort
