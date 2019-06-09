@@ -27,7 +27,7 @@ navigation: true
 
 ### - Selection Sort
 
-![selecion_sort](http://darcy.rsgc.on.ca/ACES/ICS3U/images/SelectionSortPladsen.gif)
+![selecion_sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
 
 
 ### - Insertion Sort
